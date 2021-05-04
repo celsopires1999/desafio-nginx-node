@@ -15,9 +15,9 @@ Suba tudo em um repositório e faça a entrega.
 ## Como validar o desafio
 
 1. Executar o arquivo `docker-compose.yaml` disponível nesse Repo através do comando `docker-compose up -d` , o qual usa as seguintes imagens a partir do Docker Hub:
-`celsopires/desafio-nginx-node-app`
-`celsopires/desafio-nginx-node-proxy`
-`celsopires/desafio-nginx-node-bd`
+    * `celsopires/desafio-nginx-node-app`
+    * `celsopires/desafio-nginx-node-proxy`
+    * `celsopires/desafio-nginx-node-bd`
 
 2. No navegador digite `http://localhost:8080/`
 
