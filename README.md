@@ -34,8 +34,8 @@ Suba tudo em um repositório e faça a entrega.
 7. `node index.js` (roda o programa)
 8. `http://localhost:3000` (verificar a mensagem no browser)
 
-```Fonte do index.js
-const express = require('express')
+Fonte do index.js
+```const express = require('express')
 const app = express()
 const port = 3000
 
