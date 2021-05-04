@@ -35,14 +35,14 @@ Suba tudo em um repositório e faça a entrega.
 8. `http://localhost:3000` (verificar a mensagem no browser)
 
 Fonte do index.js
-`const express = require('express')`
-`const app = express()`
-`const port = 3000`
+const express = require('express')
+const app = express()
+const port = 3000
 
-`app.get('/', (req, res) => {`
-`    res.send('<h1>Full Cycle</h1>')`
-`})`
+app.get('/', (req, res) => {
+    res.send('<h1>Full Cycle</h1>')
+})
 
-`app.listen(port, ()=> {`
-`    console.log('Rodando na porta ' + port)`
-`})`
+app.listen(port, ()=> {
+    console.log('Rodando na porta ' + port)
+})
